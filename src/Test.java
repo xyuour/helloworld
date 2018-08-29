@@ -76,6 +76,9 @@ public class Test {
 //		Object proxyInstance = Proxy.newProxyInstance(TestProxyImpl.class.getClassLoader(), new Class[]{TestProxy.class}, h);
 //		TestProxy tp = (TestProxy) proxyInstance;
 //		tp.sayHi();
+//		try(TestAotoClose tac = new TestAotoClose())
+//		{
+//			tac.sayHi();
+//		}
 	}
-
 }
